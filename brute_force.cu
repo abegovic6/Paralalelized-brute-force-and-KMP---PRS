@@ -221,7 +221,7 @@ int main(){
         printf("%d ", blockoutput[i]);
     }
     printf("\n");
-    */
+
     gerror( cudaPeekAtLastError() );
     cudaDeviceSynchronize();
     /*free memory*/
